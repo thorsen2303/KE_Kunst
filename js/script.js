@@ -69,3 +69,18 @@ function isElementInViewport(el) {
         rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
     );
       }
+      function handler(entries){
+        for (const entry of entries){
+          if (entry.isIntersecting){
+            entry.target.classList.add("active");
+          }else {
+              entry.target.classList.remove("active");
+          }
+          }
+        }
+      
+        const observer = new IntersectionObserver(handler, {threshold: 0.1,
+        });
+      
+        observer.observe(document.querySelector(".kesvg"))
+    
