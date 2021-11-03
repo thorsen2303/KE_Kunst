@@ -74,7 +74,7 @@
 /*-homesection-*/
 .home {
 	display: flex;
-	background: url("../img/goldcircle.jpg") no-repeat center;
+	background: url("../img/background.jpg") no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 60em;
@@ -93,7 +93,7 @@ textPath {
 	margin-top: 40px;
 }
 .about {
-	background: url("../img/KE_section") no-repeat center;
+	background: url("../img/KE_section1.jpg") no-repeat center;
 	background-size: cover;
 }
 .about .title {
@@ -113,7 +113,7 @@ textPath {
 	line-height: 25px;
 }
 .intsec {
-	background: url("../img/KE_section") no-repeat center;
+	background: url("../img/KE_section3.jpg") no-repeat center;
 	background-size: cover;
 }
 .intsec .title {
@@ -142,6 +142,11 @@ textPath {
 .intsec .intsec-content .column video {
 	width: 100%;
 }
+.mid {
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+}
 .divider {
 	width: 100%;
 	height: 2px;
@@ -151,7 +156,7 @@ textPath {
 }
 .clip {
 	display: flex;
-	background: url("../img/goldcircle.jpg") no-repeat center;
+	background: url("../img/background.jpg") no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 10em;
@@ -160,7 +165,7 @@ textPath {
 	font-family: 'Montserrat';
 }
 .polarid {
-	background: url("../img/KE_section4") no-repeat center;
+	background: url("../img/KE_section2.jpg") no-repeat center;
 	background-size: cover;
 }
 .polarid .polarid-content {
@@ -189,7 +194,7 @@ section {
 /*-SVG-*/
 .kesvgsec {
 	display: flex;
-	background: url("../img/goldcircle.jpg") no-repeat center;
+	background: url("../img/background.jpg") no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 30em;
