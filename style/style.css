@@ -112,6 +112,43 @@ textPath {
 	color: #010005;
 	line-height: 25px;
 }
+.intsec {
+	background: url("../img/KE_section") no-repeat center;
+	background-size: cover;
+}
+.intsec .title {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-family: 'Merienda', cursive;
+	color: #010005;
+}
+.intsec .intsec-content {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 40px;
+}
+.intsec .intsec-content .column {
+	width: 45%;
+	color: #010005;
+	line-height: 25px;
+}
+.intsec .intsec-content .column h3 {
+	margin-bottom: 20px;
+	font-size: 25px;
+	font-family: 'Merienda', cursive;
+	color: #010005;
+}
+.intsec .intsec-content .column video {
+	width: 100%;
+}
+.divider {
+	width: 100%;
+	height: 2px;
+	background-color: #01000565;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
 .clip {
 	display: flex;
 	background: url("../img/goldcircle.jpg") no-repeat center;
@@ -137,6 +174,12 @@ textPath {
 }
 .polarid .polarid-content .column.mid {
 	margin: auto;
+}
+.polarid .polarid-content .column h3 {
+	margin-bottom: 20px;
+	font-size: 25px;
+	font-family: 'Merienda', cursive;
+	color: #010005;
 }
 /*-all code styling-*/
 section {
@@ -482,6 +525,9 @@ svg.active .svg-elem-23 {
 	}
 }
 @media (max-width: 450px) {
+	.home {
+		height: 46em;
+	}
 	.about .about-content {
 		flex-direction: column;
 	}
@@ -500,7 +546,19 @@ svg.active .svg-elem-23 {
 	.polarid .polarid-content .column.left {
 		margin-bottom: 20px;
 	}
+	.intsec .intsec-content {
+		flex-direction: column;
+	}
+	.intsec .intsec-content .column {
+		width: 100%;
+	}
+	.intsec .intsec-content .column.left {
+		margin-bottom: 20px;
+	}
 	textPath {
 		font-size: 40px;
+	}
+	.kesvgsec {
+		height: 20em;
 	}
 }
