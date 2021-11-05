@@ -11,6 +11,8 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
     });
 });
+
+//textpath svg
 var textPath = document.querySelector('#text-path');
 
 var textContainer = document.querySelector('#text-container');
@@ -37,6 +39,7 @@ function onScroll(){
     });
 
 }
+//logo svg
 window.addEventListener('scroll',onScroll);
 
 var scroll = window.requestAnimationFrame ||
@@ -83,4 +86,17 @@ function isElementInViewport(el) {
         });
       
         observer.observe(document.querySelector(".kesvg"))
-    
+//show or hide button
+function myFunction() {
+    var slider = document.getElementById("slider");
+    var btn = document.getElementById("btn")
+    if (slider.style.display === "none") {
+        slider.style.display = "block";
+        btn.classList.add('show');
+        btn.innerHTML = "Skjul Billeder"
+    } else {
+        slider.style.display = "none";
+        btn.classList.remove('show');
+        btn.innerHTML = "Vis Billeder"
+    }
+}
