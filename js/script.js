@@ -88,15 +88,18 @@ function isElementInViewport(el) {
         observer.observe(document.querySelector(".kesvg"))
 //show or hide button
 function myFunction() {
-    var slider = document.getElementById("slider");
+    var slidercon = document.getElementById("slidercon");
     var btn = document.getElementById("btn")
-    if (slider.style.display === "none") {
-        slider.style.display = "block";
+    if (slidercon.style.display === "none") {
+        slidercon.style.display = "block";
         btn.classList.add('show');
         btn.innerHTML = "Skjul Billeder"
     } else {
-        slider.style.display = "none";
+        slidercon.style.display = "none";
         btn.classList.remove('show');
         btn.innerHTML = "Vis Billeder"
     }
+}
+function imgSlider(anything){
+  document.getElementById("slider").src = anything;
 }
