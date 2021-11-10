@@ -266,22 +266,22 @@ section {
 		left: 0px;
 	}
 	20% {
-		left: 1300px;
+		left: 1120px;
 	}
 	30% {
-		left: 1300px;
+		left: 1120px;
 	}
 	40% {
-		left: 2600px;
+		left: 2240px;
 	}
 	50% {
-		left: 2600px;
+		left: 2240px;
 	}
 	60% {
-		left: 1300px;
+		left: 1120px;
 	}
 	70% {
-		left: 1300px;
+		left: 1120px;
 	}
 	80% {
 		left: 0px;
@@ -294,9 +294,9 @@ section {
 	}
 }
 .slide-images {
-	width: 3900px;
-	height: 800px;
-	margin: 0 0 0 -2600px;
+	width: 3360px;
+	height: 700px;
+	margin: 0 0 0 -2240px;
 	position: relative;
 	-webkit-animation-name: slide_animation;
 	-webkit-animation-duration: 33s;
@@ -305,13 +305,13 @@ section {
 	-webkit-animation-play-state: running;
 }
 .img-container {
-	height: 800px;
-	width: 1300px;
+	height: 700px;
+	width: 1120px;
 	position: relative;
 	float: left;
 }
 .img-container img {
-	width: 1100px;
+	width: 1120px;
 }
 /*-SVG-*/
 .kesvgsec {
