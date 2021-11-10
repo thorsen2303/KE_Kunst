@@ -100,6 +100,3 @@ function myFunction() {
         btn.innerHTML = "Vis Billeder"
     }
 }
-function imgSlider(anything){
-  document.getElementById("slider").src = anything;
-}
